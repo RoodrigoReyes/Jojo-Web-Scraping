@@ -2,3 +2,5 @@ venv/
 data/*.csv
 data/*.xlsx
 data/*.json
+data/html/*
+data/carnet.psd
