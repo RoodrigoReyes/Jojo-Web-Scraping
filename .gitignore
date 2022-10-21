@@ -4,3 +4,4 @@ data/*.xlsx
 data/*.json
 data/html/*
 data/carnet.psd
+test.json
