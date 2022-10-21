@@ -811,3 +811,5 @@ characters.to_excel('jojo_characters.xlsx', index=False, encoding='utf-8-sig')
 ```python
 
 ```
+# New Scraping -> new_scrap.ipynb
+![](new_scrap_result.png)

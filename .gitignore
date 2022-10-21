@@ -5,3 +5,6 @@ data/*.json
 data/html/*
 data/carnet.psd
 test.json
+
+*.csv
+*.xlsx
