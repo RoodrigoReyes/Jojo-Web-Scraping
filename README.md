@@ -94,8 +94,6 @@ characters = pd.concat(characters_list).reset_index(drop=True)
 ```python
 characters
 ```
-
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -246,7 +244,6 @@ characters.drop(columns=['Nombre'], inplace=True)
 characters
 ```
 
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -357,7 +354,6 @@ characters['Personaje'][characters['Stand']=='Anubis'] = 'Caravan Serai, Chaka, 
 characters
 ```
 
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -480,8 +476,6 @@ characters = characters.loc[parts].reset_index(drop=True)
 characters
 ```
 
-
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -570,7 +564,6 @@ characters
 characters.sort_values('Personaje')
 ```
 
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -659,7 +652,6 @@ characters.sort_values('Personaje')
 characters[characters['Personaje'].str.contains('Jotaro')]
 ```
 
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
